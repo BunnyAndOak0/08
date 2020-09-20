@@ -1,0 +1,32 @@
+server:
+  port: 50000
+spring:
+  application:
+    name: bully-search
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/bully?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  redis:
+    host: 39.101.201.68
+    port: 6379
+    database: 1
+  main:
+    allow-bean-definition-overriding: true
+  security:
+    user:
+      name: root
+      password: '{bcrypt}$2a$10$6C0gna8SZ/xhharngKyaeeTHWXMeWUkDVbrdLUf4cFW/3/sI7obhS'
+  rabbitmq:
+    host: 39.101.201.68
+    virtual-host: /bully
+    username: bully
+    password: bully
+feign:
+  httpclient:
+    enabled: true

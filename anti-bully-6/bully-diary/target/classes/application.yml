@@ -1,0 +1,45 @@
+server:
+  port: 30000
+spring:
+  application:
+    name: bully-diary
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/bully?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      initial-size: 2
+      max-active: 7
+  jackson:
+    default-property-inclusion: non_null
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  security:
+    user:
+      name: root
+      password: '{bcrypt}$2a$10$6C0gna8SZ/xhharngKyaeeTHWXMeWUkDVbrdLUf4cFW/3/sI7obhS'
+
+  redis:
+    host: 39.101.201.68
+    port: 6379
+    database: 1
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    edu:
+      kmust:
+        bully:
+          diary: trace
+
+project:
+  image-upload-path: E:/upload
+  image-host: http://localhost:8081/
+  image-maxSize: 307200
+  image-contentType: image/jpeg,image/png,img/bmp
+
+bully:
+  SessionName: bully_cookie

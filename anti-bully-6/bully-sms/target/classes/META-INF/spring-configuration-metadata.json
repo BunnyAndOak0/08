@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "bully.sms",
+      "type": "edu.kmust.bully.sms.config.SmsProperties",
+      "sourceType": "edu.kmust.bully.sms.config.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bully.sms.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "edu.kmust.bully.sms.config.SmsProperties"
+    },
+    {
+      "name": "bully.sms.secrect",
+      "type": "java.lang.String",
+      "sourceType": "edu.kmust.bully.sms.config.SmsProperties"
+    },
+    {
+      "name": "bully.sms.sign-name",
+      "type": "java.lang.String",
+      "sourceType": "edu.kmust.bully.sms.config.SmsProperties"
+    },
+    {
+      "name": "bully.sms.template-code",
+      "type": "java.lang.String",
+      "sourceType": "edu.kmust.bully.sms.config.SmsProperties"
+    }
+  ],
+  "hints": []
+}

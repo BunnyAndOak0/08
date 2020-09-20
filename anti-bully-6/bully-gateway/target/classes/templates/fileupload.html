@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+    <form action="/api/bully-upload/upload" method="post" enctype="multipart/form-data">
+        <!--method必须为post enctype必须设置为multipart/form-data否则后台的HttpFileCollection的Count属性为0-->
+        <input type="file" name="imageFile"  />
+        <input type="submit"  value="上传" />
+    </form>
+</body>
+</html>

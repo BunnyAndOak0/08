@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.kmust.bully.user.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.kmust.bully.common.model.User">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="phone" property="phone" />
+        <result column="portrait" property="portrait" />
+        <result column="forbidden" property="forbidden" />
+        <result column="role" property="role" />
+        <result column="birth" property="birth" />
+        <result column="sex" property="sex" />
+        <result column="location" property="location" />
+    </resultMap>
+
+    <!--测试-->
+    <select id="loadUserByUsername" resultType="edu.kmust.bully.common.security.UserInfo">
+        select id,username,password,phone, role
+        from user
+        where username=#{username}
+    </select>
+
+    <!--    String selectByName(String username);-->
+    <select id="selectByName" resultType="string">
+        select phone
+        from user
+        where username=#{username}
+    </select>
+
+    <!--    void updateByUsername(String username, String password);-->
+    <update id="updateByPhone">
+        update user
+        set password = #{epassword}
+        where phone = #{phone}
+    </update>
+
+    <!-- void forbiddenUser(String username);-->
+    <update id="forbiddenUser" parameterType="java.lang.String">
+        update user
+        set forbidden = forbidden + 1
+        where username = #{username}
+        and forbidden != 3;
+    </update>
+
+    <!-- void reportReset(String username);-->
+    <update id="reportReset" parameterType="java.lang.String">
+        update user
+        set forbidden = 0
+        where username = #{username}
+    </update>
+
+    <!--void updateUser(String oldName, String newName, String birth,
+                    int sexNum, String location);-->
+    <update id="updateUser">
+        update user
+        set username = #{newName}, birth = #{birth}, sex = #{sexNum},
+            location = #{location}
+        where username = #{oldName}
+    </update>
+
+</mapper>

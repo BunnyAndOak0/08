@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/anti-bully-6.iml" filepath="$PROJECT_DIR$/anti-bully-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-common/bully-common.iml" filepath="$PROJECT_DIR$/bully-common/bully-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-diary/bully-diary.iml" filepath="$PROJECT_DIR$/bully-diary/bully-diary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-gateway/bully-gateway.iml" filepath="$PROJECT_DIR$/bully-gateway/bully-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-publish/bully-publish.iml" filepath="$PROJECT_DIR$/bully-publish/bully-publish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-search/bully-search.iml" filepath="$PROJECT_DIR$/bully-search/bully-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-sms/bully-sms.iml" filepath="$PROJECT_DIR$/bully-sms/bully-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-upload/bully-upload.iml" filepath="$PROJECT_DIR$/bully-upload/bully-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bully-user/bully-user.iml" filepath="$PROJECT_DIR$/bully-user/bully-user.iml" />
+    </modules>
+  </component>
+</project>

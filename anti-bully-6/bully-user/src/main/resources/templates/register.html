@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<form action="/user/register" method="post">
+    用户名：<input type="text" name="username"><br>
+    密码：<input type="password" name="password"><br>
+    手机：<input type="text" name="phone"><br>
+    验证码：<input type="text" name="code"><br>
+    <button type="submit">注册</button>
+</form>
+<br>
+<br>
+<form action="/user/sendCode" method="post">
+    <input type="text" name="phone"><br>
+    <button type="submit">发送验证码</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+server:
+  port: 60000
+spring:
+  application:
+    name: bully-sms
+  rabbitmq:
+    host: 39.101.201.68
+    virtual-host: /bully
+    username: bully
+    password: bully
+bully:
+  sms:
+    accessKeyId: LTAI4G2qBv7hD6cLTKwQTCdZ   #自己的accessKeyId
+    secrect: uHYjOlx6Cqj94acFFDuXlsiLqcrooS   #自己的AccessKeySecrect
+    signName: 08App交流平台   #签名名称
+    TemplateCode: SMS_201680116   #模板名称

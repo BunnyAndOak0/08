@@ -1,0 +1,68 @@
+server:
+  port: 11000
+spring:
+  application:
+    name: bully-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/bully?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      initial-size: 2
+      max-active: 7
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 39.101.201.68
+    port: 6379
+    database: 1
+  session:
+    store-type=redis:
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    cn:
+      tedu:
+        straw:
+          gateway=trace:
+bully:
+  SessionName: bully_cookie
+zuul:
+  host:
+    connect-timeout-millis: 60000 #
+    socket-timeout-millis: 60000   #socket超时
+  prefix: /api
+  routes:
+    bully-diary: /diary/**
+    bully-publish: /publish/**
+    bully-user: /user/**
+    bully-search: /search/**
+    bully-upload: /upload/**
+
+#    bully-user-route:
+#      path: /user/**
+#      service-id: bully-user
+#      sensitiveHeaders: Authorization
+#   测试
+#    baidu123:
+#      path: /baidu/**
+#      url: http://hao123.com/
+  # 解决敏感头问题
+  sensitive-headers: "*"
+#解决超时问题
+ribbon:
+  ReadTimeout: 120000  #请求处理的超时时间
+  ConnectTimeout: 30000  #请求连接的超时时间
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

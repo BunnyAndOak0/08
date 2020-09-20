@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.kmust.bully.diary.mapper.DiaryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.kmust.bully.diary.model.Diary">
+        <id column="diary_id" property="diaryId" />
+        <result column="user_id" property="userId" />
+        <result column="diary_title" property="diaryTitle" />
+        <result column="diary_content" property="diaryContent" />
+        <result column="diary_createtime" property="diaryCreatetime" />
+        <result column="diary_updatetime" property="diaryUpdatetime" />
+        <result column="diary_isdelete" property="diaryIsdelete" />
+    </resultMap>
+
+<insert id="deleteDiaryById">
+        DELETE from diary where diary_id = #{diaryId}
+</insert>
+
+    <select id="findAllDiary" resultMap="BaseResultMap">
+        select * from diary ORDER BY diary_createtime DESC;
+    </select>
+
+<!--    <select id="selectDiaryByTitle">-->
+<!--        select * from diary where diary_title = #{title}-->
+<!--    </select>-->
+
+    <update id="updateDiaryById" >
+        update diary
+        set diary_content = #{diaryContent},diary_title = #{diaryTitle},diary_updatetime = #{diaryUpdatetime}
+        where diary_id = #{diaryId}
+    </update>
+
+</mapper>

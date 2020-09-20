@@ -1,0 +1,2 @@
+title_img   20X20
+avatar img 30X30

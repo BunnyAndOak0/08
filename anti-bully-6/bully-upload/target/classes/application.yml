@@ -1,0 +1,20 @@
+server:
+  port: 40000
+spring:
+  application:
+    name: bully-upload
+  resources:
+    static-locations: file:D:/upload
+  security:
+    user:
+      name: root
+      password: '{bcrypt}$2a$10$6C0gna8SZ/xhharngKyaeeTHWXMeWUkDVbrdLUf4cFW/3/sI7obhS'
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+project:
+  image-upload-path: D:/upload
+  image-host: http://localhost:40000/
+  image-maxSize: 307200
+  image-contentType: image/jpeg,image/png,img/bmp

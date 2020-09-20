@@ -1,0 +1,47 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: bully-user
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/bully?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    druid:
+      initial-size: 2
+      max-active: 7
+  jackson:
+    default-property-inclusion: non_null
+  security:
+    user:
+      name: root
+      password: '{bcrypt}$2a$10$6C0gna8SZ/xhharngKyaeeTHWXMeWUkDVbrdLUf4cFW/3/sI7obhS'
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  rabbitmq:
+    host: 39.101.201.68
+    virtual-host: /bully
+    username: bully
+    password: bully
+  redis:
+    host: 39.101.201.68
+    port: 6379
+    database: 1
+  main:
+    allow-bean-definition-overriding: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+logging:
+  level:
+    edu:
+      kmust:
+        bully:
+          user: trace
+bully:
+  SessionName: bully_cookie
+feign:
+  httpclient:
+    enabled: true

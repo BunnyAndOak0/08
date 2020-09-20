@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9fb3cc6c-f8ce-4a32-8583-07c12927e32a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="F:\Web阶段课程\maven.aliyun.com\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1g1zxQgDUU5PC4IUAkaCcJmajfV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/bully-publish-comment/src/main/java/edu/kmust/bully" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.18066406" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-3\bully-gateway\src\main\resources\mapper" />
+      <recent name="C:\Users\18369\Desktop\anti-bully-2\bully-upload" />
+      <recent name="C:\Users\18369\Desktop\anti-bully-2\bully-upload\bully-upload-service" />
+      <recent name="C:\Users\18369\Desktop\anti-bully-2\bully-user\src\main\resources\static" />
+      <recent name="C:\Users\18369\Desktop\anti-bully-2\bully-user\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.kmust.bully.search" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.kmust.bully.diary.service" />
+      <recent name="edu.kmust.bully.diary.service.impl" />
+      <recent name="edu.kmust.bully.diary.mapper" />
+      <recent name="edu.kmust.bully.diary.controller" />
+      <recent name="edu.kmust.bully.diary.DTO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-6\bully-diary\src\main\java\edu\kmust\bully\diary\vo" />
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-6\bully-gateway\src\main\resources\templates" />
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-5\bully-diary\src\main\java\edu\kmust\bully\diary\mapper" />
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-5\bully-diary\src\main\resources\mapper" />
+      <recent name="C:\Users\18369\Desktop\version\anti-bully-5\bully-publish\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BullyDiaryApplication">
+    <configuration name="ModelTests.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bully-publish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kmust.bully.publish.serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kmust.bully.publish.serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="edu.kmust.bully.publish.serviceTests.ModelTests" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTests.getModelLikes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bully-publish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kmust.bully.publish.serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kmust.bully.publish.serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="edu.kmust.bully.publish.serviceTests.ModelTests" />
+      <option name="METHOD_NAME" value="getModelLikes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelTests.publicModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bully-publish" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kmust.bully.publish.serviceTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.kmust.bully.publish.serviceTests" />
+      <option name="MAIN_CLASS_NAME" value="edu.kmust.bully.publish.serviceTests.ModelTests" />
+      <option name="METHOD_NAME" value="publicModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BullyDiaryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bully-diary" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.diary.BullyDiaryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BullyPublishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bully-publish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.publish.BullyPublishApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BullyUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bully-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.BullyUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BullyUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bully-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.user.BullyUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bully-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bully-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kmust.bully.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.search.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bully-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.kmust.bully.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.kmust.bully.SendMessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://103.46.128.43/bully_user/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/bully-user">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bully_user" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_anti-bully-2" />
+        <option name="HTTP_PORT" value="10000" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9467" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ModelTests.getModelLikes" />
+      <item itemvalue="JUnit.ModelTests.publicModel" />
+      <item itemvalue="JUnit.ModelTests.deleteById" />
+      <item itemvalue="Spring Boot.BullyDiaryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.BullyPublishApplication" />
+      <item itemvalue="Spring Boot.BullyUserApplication" />
+      <item itemvalue="Spring Boot.BullyUploadApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.SendMessageApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.54" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SendMessageApplication" />
+        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="JUnit.ModelTests.publicModel" />
+        <item itemvalue="JUnit.ModelTests.deleteById" />
+        <item itemvalue="JUnit.ModelTests.getModelLikes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22540984" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fb3cc6c-f8ce-4a32-8583-07c12927e32a" name="Default Changelist" comment="" />
+      <created>1597297132404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597297132404</updated>
+      <workItem from="1597297136613" duration="4697000" />
+      <workItem from="1597302343862" duration="8605000" />
+      <workItem from="1597316152298" duration="706000" />
+      <workItem from="1597317501066" duration="377000" />
+      <workItem from="1597317894670" duration="18000" />
+      <workItem from="1597317981611" duration="5270000" />
+      <workItem from="1597323667419" duration="24865000" />
+      <workItem from="1597470013491" duration="5726000" />
+      <workItem from="1597475966344" duration="24560000" />
+      <workItem from="1597522587959" duration="691000" />
+      <workItem from="1597523307812" duration="2183000" />
+      <workItem from="1597545125521" duration="711000" />
+      <workItem from="1597545845202" duration="108727000" />
+      <workItem from="1598000937437" duration="6037000" />
+      <workItem from="1598007115849" duration="33016000" />
+      <workItem from="1598230984944" duration="5430000" />
+      <workItem from="1598317315082" duration="26949000" />
+      <workItem from="1598403838284" duration="7469000" />
+      <workItem from="1598432669768" duration="9390000" />
+      <workItem from="1598490802598" duration="14892000" />
+      <workItem from="1598518308428" duration="9627000" />
+      <workItem from="1598581628008" duration="97085000" />
+      <workItem from="1598929147162" duration="34432000" />
+      <workItem from="1599033188091" duration="61428000" />
+      <workItem from="1599181104400" duration="18203000" />
+      <workItem from="1599263733837" duration="32035000" />
+      <workItem from="1599437681355" duration="1815000" />
+      <workItem from="1599462590616" duration="8066000" />
+      <workItem from="1599527063669" duration="14946000" />
+      <workItem from="1599612995904" duration="13401000" />
+      <workItem from="1599699181249" duration="2516000" />
+      <workItem from="1599806097615" duration="1072000" />
+      <workItem from="1600073300736" duration="1338000" />
+      <workItem from="1600151418094" duration="6399000" />
+      <workItem from="1600218952469" duration="1439000" />
+      <workItem from="1600307470804" duration="1493000" />
+      <workItem from="1600322762642" duration="5612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Inspections" timestamp="1599176786401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1599176786401" />
+    <state x="242" y="0" key="#Project_Structure" timestamp="1598495868925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="242" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598495868925" />
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597559257878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597559257878" />
+    <state x="459" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597805329529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597805329529" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1599617958287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599617958287" />
+    <state x="531" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597522782975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597522782975" />
+    <state x="486" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598832006233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1598832006233" />
+    <state x="553" y="279" width="457" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598357876431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="279" width="457" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1598357876431" />
+    <state x="553" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598832009630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="300" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1598832009630" />
+    <state x="390" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598871599419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1598871599419" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599105183247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599105183247" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1598856012725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598856012725" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1599699910919">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599699910919" />
+    <state width="1133" height="452" key="GridCell.Tab.0.bottom" timestamp="1600331615302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600331615302" />
+    <state width="1133" height="452" key="GridCell.Tab.0.center" timestamp="1600331615301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600331615301" />
+    <state width="1133" height="452" key="GridCell.Tab.0.left" timestamp="1600331615301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600331615301" />
+    <state width="1133" height="452" key="GridCell.Tab.0.right" timestamp="1600331615301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600331615301" />
+    <state width="1133" height="452" key="GridCell.Tab.1.bottom" timestamp="1600331615303">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600331615303" />
+    <state width="1133" height="452" key="GridCell.Tab.1.center" timestamp="1600331615302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600331615302" />
+    <state width="1133" height="452" key="GridCell.Tab.1.left" timestamp="1600331615302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600331615302" />
+    <state width="1133" height="452" key="GridCell.Tab.1.right" timestamp="1600331615302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1133" height="452" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600331615302" />
+    <state width="1140" height="568" key="GridCell.Tab.2.bottom" timestamp="1599699311614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1140" height="568" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599699311614" />
+    <state width="1140" height="568" key="GridCell.Tab.2.center" timestamp="1599699311613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1140" height="568" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599699311613" />
+    <state width="1140" height="568" key="GridCell.Tab.2.left" timestamp="1599699311613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1140" height="568" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599699311613" />
+    <state width="1140" height="568" key="GridCell.Tab.2.right" timestamp="1599699311613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1140" height="568" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599699311613" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1598522251315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1598522251315" />
+    <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1597544887877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1597544887877" />
+    <state x="-108" y="0" key="SettingsEditor" timestamp="1598491083185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-108" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598491083185" />
+    <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1597316636568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1597316636568" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1598845457252">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1598845457252" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599291237587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1599291237587" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1600322761716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600322761716" />
+    <state x="323" y="151" width="889" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597489102146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="151" width="889" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1597489102146" />
+    <state x="245" y="123" key="new project wizard" timestamp="1598143506262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="245" y="123" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598143506262" />
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1598912659284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1598912659284" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599565369053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599565369053" />
+  </component>
+</project>

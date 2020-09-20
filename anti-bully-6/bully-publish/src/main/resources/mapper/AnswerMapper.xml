@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.kmust.bully.publish.mapper.AnswerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.kmust.bully.common.model.Answer">
+        <id column="id" property="id" />
+        <result column="content" property="content" />
+        <result column="count_of_likes" property="countOfLikes" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="model_id" property="modelId" />
+        <result column="created_time" property="createdTime" />
+        <result column="status_of_accept" property="statusOfAccept" />
+    </resultMap>
+
+    <resultMap id="AnswerVO_Map" type="edu.kmust.bully.common.vo.AnswerVO">
+        <id column="id" property="id" />
+        <result column="content" property="content" />
+        <result column="count_of_likes" property="countOfLikes" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="model_id" property="modelId" />
+        <result column="created_time" property="createdTime" />
+        <result column="status_of_accept" property="statusOfAccept" />
+        <collection property="comments"
+                    ofType="edu.kmust.bully.common.model.Comment">
+            <id column="comment_id" property="id" />
+            <result column="comment_user_id" property="userId" />
+            <result column="comment_user_name" property="userName" />
+            <result column="comment_answer_id" property="answerId" />
+            <result column="comment_content" property="content" />
+            <result column="comment_created_time" property="createdTime" />
+        </collection>
+    </resultMap>
+
+    <select id="findListByModelId" resultMap="AnswerVO_Map">
+     SELECT
+        answer.*,
+        comment.id 				AS comment_id,
+        comment.user_id 		AS comment_user_id,
+        comment.user_name 	AS comment_user_name,
+        comment.answer_id 		AS comment_answer_id,
+        comment.content 		AS comment_content,
+        comment.created_time 	AS comment_created_time
+    FROM
+        answer
+    LEFT JOIN
+        comment
+    ON
+        answer.id=comment.answer_id
+    WHERE
+        model_id=#{modelId}
+    ORDER BY
+        status_of_accept DESC,
+        answer.created_time DESC,
+        comment.created_time DESC
+</select>
+    <delete id="deleteById">
+        DELETE FROM answer WHERE id=#{id}
+    </delete>
+</mapper>
